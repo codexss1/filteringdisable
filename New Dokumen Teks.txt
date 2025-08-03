@@ -1,4 +1,8 @@
 local sound = Instance.new("Sound")
-sound.SoundId = "rbxassetid://123456789"  -- Sound asset ID
+sound.SoundId = "rbxassetid://98364034458260"  -- Sound asset ID
 sound.Parent = game.Workspace
+sound.Volume = 10
+sound.Looped = true
+sound.PlayBackSpeed = 1
+
 sound:Play()  -- Plays sound for all clients
