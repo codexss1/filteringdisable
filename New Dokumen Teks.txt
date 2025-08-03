@@ -1,0 +1,4 @@
+local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://123456789"  -- Sound asset ID
+sound.Parent = game.Workspace
+sound:Play()  -- Plays sound for all clients
